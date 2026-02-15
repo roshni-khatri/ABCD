@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ABCD Bakery</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg,#fff1c1,#ffd6e0,#d0f4ff);
+    color:#444;
+}
+
+header{
+    background:white;
+    padding:20px;
+    text-align:center;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+
+header h1{
+    font-size:42px;
+    background: linear-gradient(45deg,#ff6b6b,#ff9f1c,#ff4fa3);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+nav{
+    margin-top:10px;
+}
+
+nav a{
+    text-decoration:none;
+    margin:0 15px;
+    color:#ff4fa3;
+    font-weight:500;
+}
+
+nav a:hover{
+    color:#ff6b6b;
+}
+
+.hero{
+    text-align:center;
+    padding:70px 20px;
+}
+
+.hero h2{
+    font-size:38px;
+    color:#ff4fa3;
+}
+
+.hero p{
+    margin-top:10px;
+    font-size:18px;
+}
+
+.products{
+    padding:60px 20px;
+    text-align:center;
+}
+
+.products h2{
+    font-size:32px;
+    margin-bottom:40px;
+    color:#ff6b6b;
+}
+
+.product-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:30px;
+}
+
+.product{
+    background:white;
+    width:260px;
+    border-radius:20px;
+    padding:15px;
+    box-shadow:0 8px 18px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.product:hover{
+    transform:translateY(-10px);
+}
+
+.product img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    border-radius:15px;
+}
+
+.product h3{
+    margin:15px 0 5px;
+    color:#ff4fa3;
+}
+
+.price{
+    color:#ff6b6b;
+    font-weight:700;
+    margin-bottom:10px;
+}
+
+.btn{
+    background:linear-gradient(45deg,#ff6b6b,#ff9f1c);
+    color:white;
+    padding:8px 15px;
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+}
+
+.btn:hover{
+    opacity:0.8;
+}
+
+footer{
+    background:white;
+    text-align:center;
+    padding:20px;
+    margin-top:50px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>ABCD Bakery 🍰</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">Specials</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Sweet Moments, Baked Fresh ✨</h2>
+    <p>Delicious treats made with love & happiness 💕</p>
+</section>
+
+<section class="products">
+    <h2>Our Popular Treats</h2>
+
+    <div class="product-container">
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587" alt="Cake">
+            <h3>Rainbow Celebration Cake</h3>
+            <p class="price">$28.00</p>
+            <button class="btn">Order Now</button>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff" alt="Cupcakes">
+            <h3>Colorful Cupcakes</h3>
+            <p class="price">$15.00</p>
+            <button class="btn">Order Now</button>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1541976076758-347942db1975" alt="Donuts">
+            <h3>Sweet Glazed Donuts</h3>
+            <p class="price">$10.00</p>
+            <button class="btn">Order Now</button>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1603532648955-039310d9ed75" alt="Cookies">
+            <h3>Choco Chip Cookies</h3>
+            <p class="price">$12.00</p>
+            <button class="btn">Order Now</button>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    © 2026 ABCD Bakery | Made with 💖 & Sugar
+</footer>
+
+</body>
+              </html>
